@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const form=document.getElementById('registrationForm');const msg=document.getElementById('formMessage');form.addEventListener('submit',e=>{e.preventDefault();msg.classList.remove('d-none');form.reset();});});
